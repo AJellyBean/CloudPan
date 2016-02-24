@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Camera"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_green_light"
+        android:padding="10dp"
+        android:text="Ablum"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_webview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WebView" />
+
+    <map.karen.com.cameramanager.BubbleImageView
+        android:id="@+id/picture"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_splash"
+        app:bubble_angle="10dp"
+        app:bubble_arrowHeight="15dp"
+        app:bubble_arrowLocation="left"
+        app:bubble_arrowOffset="-5dp"
+        app:bubble_arrowTop="20dp"
+        app:bubble_arrowWidth="8dp" />
+
+    <map.karen.com.cameramanager.BubbleImageView
+        android:id="@+id/picture2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_splash"
+        app:bubble_angle="10dp"
+        app:bubble_arrowHeight="15dp"
+        app:bubble_arrowLocation="left"
+        app:bubble_arrowOffset="-5dp"
+        app:bubble_arrowTop="20dp"
+        app:bubble_arrowWidth="8dp" />
+
+
+</LinearLayout>
