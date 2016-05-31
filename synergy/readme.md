@@ -16,6 +16,7 @@ Synergy 一套键鼠同时控制多台电脑的神器！
 Github地址：[https://github.com/symless/synergy ](https://github.com/symless/synergy ) 
 
 如果你不想下载官方的，我也存了一份历史版本在Github上
+[https://github.com/AJellyBean/CloudPan/tree/master/synergy](https://github.com/AJellyBean/CloudPan/tree/master/synergy ) 
 
 ##二、安装和配置
 1. 安装就不说了，一路下一步，mac 和linux 直接就打开。
